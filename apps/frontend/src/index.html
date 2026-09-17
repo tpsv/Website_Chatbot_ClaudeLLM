@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fade & Co. — Barbershop & Salon</title>
+    <meta name="description" content="Fade & Co. is a modern barbershop & salon. Haircuts, beard trims, and colour — walk-ins welcome, Tuesday to Saturday." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script type="module" src="./frontend.tsx" async></script>
+  </head>
+  <body>
+    <header class="nav">
+      <a class="nav-brand" href="#top">Fade <span>&amp;</span> Co.</a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <button class="nav-cta" data-open-chat>Book via chat</button>
+    </header>
+
+    <main class="site">
+      <section class="hero" id="top">
+        <div class="hero-media" style="background-image: url('https://images.unsplash.com/photo-1770253980732-dfed1cfdfa43?q=80&w=1920&h=1080&fit=crop&auto=format');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Barbershop &amp; Salon · Est. locally trusted</p>
+          <h1>Sharp cuts. Slower mornings.</h1>
+          <p class="hero-sub">
+            Fade &amp; Co. is a two-chair barbershop and salon built for precision fades, honest beard work,
+            and colour done right. Walk in, or ask our assistant to sort you out.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#services">Explore services</a>
+            <button class="btn btn-ghost" data-open-chat>Chat with us</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="about-media">
+          <img src="https://images.unsplash.com/photo-1781450090585-1a511b7066d9?q=80&w=900&h=1100&fit=crop&auto=format" alt="Inside Fade & Co. barbershop" loading="lazy" />
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">The shop</p>
+          <h2>Two chairs, no rush.</h2>
+          <p>
+            We keep it small on purpose. Maria and Josh both cut, so there's always a familiar face and a clean
+            line-up waiting — whether you booked ahead or just walked past and fancied a tidy-up.
+          </p>
+          <p>
+            Card only, cancellations need two hours' notice, and under-12s get 20% off haircuts. Simple shop,
+            simple rules.
+          </p>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <p class="eyebrow center">Services &amp; pricing</p>
+        <h2 class="center">What we do</h2>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Haircut</h3>
+            <p class="service-meta">30 min</p>
+            <p class="service-price">£25</p>
+            <p>Precision cut and finish, tailored to how you actually style it day to day.</p>
+          </article>
+          <article class="service-card">
+            <h3>Beard trim</h3>
+            <p class="service-meta">15 min</p>
+            <p class="service-price">£15</p>
+            <p>Shape, line-up, and a clean edge. In and out without losing your lunch break.</p>
+          </article>
+          <article class="service-card featured">
+            <h3>Haircut + beard combo</h3>
+            <p class="service-meta">45 min</p>
+            <p class="service-price">£35</p>
+            <p>Our most-booked slot — full cut and beard work in one sitting.</p>
+          </article>
+          <article class="service-card">
+            <h3>Hair colour</h3>
+            <p class="service-meta">90 min</p>
+            <p class="service-price">£60</p>
+            <p>With Maria. First-time colour clients — a quick consultation is recommended.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="team" id="team">
+        <p class="eyebrow center">Meet the chairs</p>
+        <h2 class="center">Maria &amp; Josh</h2>
+        <div class="team-grid">
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1747832910187-f27508ac4c60?q=80&w=700&h=860&fit=crop&auto=format" alt="Maria, barber and colourist at Fade & Co., mid-haircut with a client" loading="lazy" />
+            <h3>Maria</h3>
+            <p>Haircuts &amp; colour. The one to book for anything colour-related.</p>
+          </article>
+          <article class="team-card">
+            <img src="https://images.unsplash.com/photo-1546596468-13349ee0c504?q=80&w=700&h=860&fit=crop&auto=format" alt="Josh, barber at Fade & Co., cutting a client's hair" loading="lazy" />
+            <h3>Josh</h3>
+            <p>Haircuts, beard trims &amp; combos. Fast, sharp, no small talk required.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <p class="eyebrow center">Gallery</p>
+        <h2 class="center">Recent work</h2>
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1582771498000-8ad44e6c84db?q=80&w=700&h=700&fit=crop&auto=format" alt="Client getting a haircut at Fade & Co." loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1759134248487-e8baaf31e33e?q=80&w=700&h=900&fit=crop&auto=format" alt="Barbershop floor with clients mid-cut" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1770253980732-dfed1cfdfa43?q=80&w=700&h=560&fit=crop&auto=format" alt="Barber cutting a client's hair with clippers" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1747832910187-f27508ac4c60?q=80&w=700&h=900&fit=crop&auto=format" alt="Close-up of a haircut in progress" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1546596468-13349ee0c504?q=80&w=700&h=560&fit=crop&auto=format" alt="Barber finishing up a fresh haircut" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1781450090585-1a511b7066d9?q=80&w=700&h=700&fit=crop&auto=format" alt="Fade & Co. shop interior with styling chairs" loading="lazy" />
+        </div>
+      </section>
+
+      <section class="visit" id="visit">
+        <div class="visit-media" style="background-image: url('https://images.unsplash.com/photo-1759134248487-e8baaf31e33e?q=80&w=1600&h=1000&fit=crop&auto=format');"></div>
+        <div class="visit-overlay"></div>
+        <div class="visit-content">
+          <p class="eyebrow">Hours &amp; visit</p>
+          <h2>Come sit down.</h2>
+          <dl class="hours-list">
+            <div><dt>Tue – Sat</dt><dd>9:00am – 6:00pm</dd></div>
+            <div><dt>Sun – Mon</dt><dd>Closed</dd></div>
+          </dl>
+          <p class="visit-note">Walk-ins welcome when a chair is free — booked appointments take priority. Card payment only.</p>
+          <button class="btn btn-primary" data-open-chat>Ask about availability</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">Fade <span>&amp;</span> Co.</div>
+      <p>Barbershop &amp; salon. Tuesday–Saturday, 9am–6pm.</p>
+      <p class="footer-fine">This is a demo storefront — the assistant in the corner is the actual project.</p>
+    </footer>
+
+    <div id="chat-widget-root"></div>
+  </body>
+</html>

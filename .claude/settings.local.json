@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tasklist //FI \"PID eq 53524\")",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" \"https://images.unsplash.com/photo-1781450090585-1a511b7066d9?fm=jpg&q=60&w=1600&auto=format&fit=crop\" --max-time 15)",
+      "WebSearch"
+    ]
+  }
+}
