@@ -1,0 +1,7 @@
+ANTHROPIC_API_KEY= 
+
+# Google Calendar (OAuth2) — see scripts/get-refresh-token.ts
+GOOGLE_CLIENT_ID= 
+GOOGLE_CLIENT_SECRET= 
+GOOGLE_REFRESH_TOKEN= 
+GOOGLE_CALENDAR_ID=primary
