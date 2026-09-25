@@ -86,6 +86,4 @@ apps/
   frontend/   # React chat widget / website UI
 ```
 
-## License
 
-[Add your license here]
